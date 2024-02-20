@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gym Website Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Courgette&family=Roboto&family=Whisper&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html"><img src="" alt="" class="navbar-logo logo-animate"></a>
+            <a href="index.html">
+                <h1 class="logo-animate">FIT<span> 'N</span> FINE</h1>
+            </a>
+
+            <div class="navbar-toggle" id="mobile-menu">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+
+            <div class="navbar-menu navbar-animate">
+
+                <a href=".html" class="navbar-link">Home</a>
+                <a href="#Home" class="navbar-link">Home</a>
+                <a href="#service" class="navbar-link">Services</a>
+                <a href="#membership" class="navbar-link ">Memberships</a>
+                <a href="#gallery" class="navbar-link">Gallery</a>
+                <a href="#contact" class="navbar-link">Contact</a>
+
+
+                <button class="login-btn">
+                    Login
+                    <div class="tooltip">
+                        <p class="margin">Don't Have an Account?</p>
+                        <p>You can Sign Up</p>
+                    </div>
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- User Login || Sign In  -->
+    
+       <section id="log">
+          <div class="user-sign-flex" id="login">
+            <section class="user-sign-in-container">
+      
+              <span class="icon-close" id="closeButton">
+                <ion-icon name="close-circle"></ion-icon>
+              </span>
+        
+              <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#" method="GET">
+          
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                  </div>
+          
+          
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="remember-forget-pass">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#" class="forgot-pass">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="submit-btn">Login</button>
+                  <div class="login-register">
+                    <p>Don't have an Account?<a href="#" class="register-link">Register</a></p>
+                  </div>
+                </form>
+              </div>
+        
+        
+              <span class="icon-close" id="closeButton">
+                <ion-icon name="close"></ion-icon>
+              </span>
+        
+              <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#" method="GET">
+          
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="text">Username</label>
+                  </div>
+        
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label for="email">Email</label>
+                  </div>
+          
+                  <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="remember-forget-pass">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                    
+                  </div>
+                  <button type="submit" class="submit-btn">Sign In</button>
+                  <div class="login-register">
+                    <p>Already have an Account?<a href="#" class="login-link">Login</a></p>
+                  </div>
+                </form>
+              </div>
+            </section>
+          
+          </div>
+       </section>
+
+    
+
+
+    <!-- Home Section -->
+
+    <section class="hero" id="Home">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title-animate">Build Up <span class="delay-span-animate">Your</span> Strength, <span
+                    class="delay-span-animate"></span></h1>
+            <h1 class="hero-title-animate-2"><span>Body and</span> Fitness </h1>
+
+
+            <p class="hero-animate-p">Join the Movement!</p>
+            <a href="#Bmi" class="get-started-btn gsap-animate-btn">Get Started</a>
+
+        </div>
+
+    </section>
+
+    <!-- service -->
+    <section class="choseus-section spad" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Why chose us?</span>
+                        <h2>PUSH YOUR LIMITS FORWARD</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span><i class="fa-solid fa-dumbbell fa-2x"></i></span>
+                        <h4>Modern equipment</h4>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut dolore facilisis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span><i class="fa-solid fa-bowl-food fa-2x"></i></span>
+                        <h4>Healthy nutrition plan</h4>
+                        <p class="para">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                            lacus vel facilisis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span><i class="fa-solid fa-person-running fa-2x"></i></span>
+                        <h4>Professional training plan</h4>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut dolore facilisis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span><i class="fa-solid fa-heart-pulse fa-2x"></i></span>
+                        <h4>Unique to your needs</h4>
+                        <p class="para">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                            lacus vel facilisis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ChoseUs Section End -->
+
+
+    <!-- BMI CALCULATOR -->
+
+
+    <section class="bmi-calculator-section spad" id="Bmi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title chart-title">
+                        <span>check your body</span>
+                        <h2>BMI CALCULATOR CHART</h2>
+                    </div>
+                    <div class="chart-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Bmi</th>
+                                    <th>WEIGHT STATUS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="point">Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title chart-calculate-title">
+                        <span>check your body</span>
+                        <h2>CALCULATE YOUR BMI</h2>
+                    </div>
+                    <div class="chart-calculate-form">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra maecenas accumsan lacus vel facilisis.</p>
+                            
+                            <div class="calculator">
+                                <label for="weight">Weight (kg):</label>
+                                <input type="number" id="weight" placeholder="Enter your weight" required>
+                                
+                                <label for="height">Height (cm):</label>
+                                <input type="number" id="height" placeholder="Enter your height" required>
+                        
+                                <label for="gender">Gender:</label>
+                                <select id="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <button onclick="calculateBMI()">Calculate BMI</button>
+
+        <h3>Your BMI is: <span id="result"></span></h3>
+        <h3><span id="interpretation"></span></h3>
+    </div>
+                                    
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BMI Calculator Section End -->
+
+
+<!-- membership plans -->
+
+
+
+<section class="memberships" id="membership">
+    <h1>Our Membership Plans</h1>
+    <p>Start today with <span class="membership-style">Gold</span> or <span class="membership-style">Diamond</span> and receive 25% off your first month</p>
+
+    <div class="membership-wrapper hiddenTop">
+
+      <div class="membership-card silver-member">
+
+        <div class="membership-title">
+
+          <i class="fas fa-dumbbell card-icon"></i>
+          <h3>Silver</h3>
+
+        </div>
+        <div class="membership-perks">
+
+          <p><span class="price-style">35</span><span class="euro-style"><i class="fa-solid fa-dollar-sign"></i></span>/month</p>
+          <p>Gain access to the gym room</p>
+          <p>Group Fitness classes</p>
+
+        </div>
+
+        <a href="./membership.html" class="get-started-btn membership-btn">Sign Up</a>
+        
+      </div>
+
+      <div class="membership-card gold-member">
+
+        <div class="membership-title">
+
+          <i class="fa-solid fa-medal card-icon"></i>
+          <h3>Gold</h3>
+          <div class="card-absolute">
+            <p>Top Choice</p>
+  
+          </div>
+
+        </div>
+        <div class="membership-perks">
+
+          <p><span class="price-style">45</span><span class="euro-style"><i class="fa-solid fa-dollar-sign"></i></span>/month</p>
+          <p>Gain access to the gym room</p>
+          <p>Group Fitness classes</p>
+          <p>Access to Sauna and Courts</p>
+
+        </div>
+
+        <a href="./membership.html" class="get-started-btn membership-btn">Sign Up</a>
+
+      </div>
+
+      <div class="membership-card diamond-member">
+
+        <div class="membership-title">
+
+          <i class="fa-solid fa-diamond card-icon"></i>
+          <h3>Diamond</h3>
+
+        </div>
+        <div class="membership-perks">
+
+          <p><span class="price-style">55</span><span class="euro-style"><i class="fa-solid fa-dollar-sign"></i></span>/month</p>
+          <p>Access to everything we offer!</p>
+
+        </div>
+
+        <a href="./membership.html" class="get-started-btn membership-btn">Sign Up</a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- gallery -->
+
+
+<!-- Gallery Section Begin -->
+<div class="gallery-section" id="gallery">
+
+  <h1 class="gal">Our Gallery </h1>
+  <div class="gallery">
+      <div class="grid-sizer"></div>
+      <div class="gs-item grid-wide set-bg">
+         <img src="./images/gal1.jpg" alt=""><a href="./images/gal1.jpg" class="thumb-icon image-popup"><i class="fa-solid fa-image"></i></a>
+      </div>
+      <div class="gs-item set-bg">
+         <img src="./images/gali2.jpg" alt=""> <a href="./images/gali2.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+      </div>
+      <div class="gs-item set-bg">
+      <img src="./images/gal3.jpg" alt="">    <a href="./images/gal3.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+      </div>
+      <div class="gs-item set-bg">
+      <img src="./images/girl.jpg" alt="">    <a href="./images/girl.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+      </div>
+      <div class="gs-item set-bg">
+        <img src="./images/pexels-leon-ardho-1552102.jpg" alt="">  <a href="./images/pexels-leon-ardho-1552102.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+      </div>
+      <div class="gs-item set-bg">
+        <img src="./images/ng1.jpg "alt="">    <a href="./images/ng1.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+        </div>
+
+        <div class="gs-item set-bg">
+          <img src="./images/pexels-pixabay-416809.jpg "alt="">    <a href="./images/pexels-pixabay-416809.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+          </div>
+   </div>
+</div>
+<!-- Gallery Section End -->
+
+
+<!-- contact -->
+<div class="gettouch-section" id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="gt-text">
+                  <i class="fa fa-map-marker"></i>
+                  <p>152 Kochi Rd near Lulu Mall,<br/> NH 1234</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="gt-text">
+                  <i class="fa fa-mobile"></i>
+                  <ul>
+                      <li>255-565-222</li>
+                      <li>333-444-555</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="gt-text email">
+                  <i class="fa fa-envelope"></i>
+                  <p>Fitnf.gym@gmail.com</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- footer -->
+
+<footer>
+  <div class="foot-panel2">
+      <ul>
+          <a class="navbar-brand"
+              style="font-size: bold; font-family: 'Roboto', sans-serif; font-size: 24px; color: #FFFFFF;"
+              href="#"> <h1 class="logo-animate">FIT<span> 'N</span> FINE</h1></a>
+      </ul>
+      <ul>
+          <p style="color: #FFFFFF;">Links</p>
+          <a href="#Home">Home</a>
+          <a href="#service">Services</a>
+         <a href="#membership">Membership</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+
+      </ul>
+      <ul>
+          <p style="color: #FFFFFF;">More</p>
+          <a href="#Bmi">BMI Calculator</a>
+          <a href="#">Classes</a>
+          <a href="#Home">Login</a>
+          <a href="#">Blog</a>
+      </ul>
+      <ul>
+          <p style="color: #FFFFFF;">Connect</p>
+          <a href="#">Facebook</a>
+          <a href="#">Your Account</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Linkedin</a>
+      </ul>
+      <div class="subscribe">
+          <h1>Subscribe to get latest <br>updates</h1>
+          <label>
+              <input class="bg-transparent" type="text" name="" id="" placeholder="Your email">
+              <button>Subscribe</button>
+          </label>
+      </div>
+  </div>
+  
+  
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
+</body>
